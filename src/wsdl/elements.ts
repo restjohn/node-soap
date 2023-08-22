@@ -1,7 +1,7 @@
 
 import { ok as assert } from 'assert';
-import * as debugBuilder from 'debug';
-import * as _ from 'lodash';
+import debugBuilder from 'debug';
+import _ from 'lodash';
 import { IWsdlBaseOptions } from '../types';
 import { splitQName, TNS_PREFIX } from '../utils';
 
